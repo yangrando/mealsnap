@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct NutritionInfo: Decodable {
+    let calories: String
+    let carbs: String
+    let fat: String
+    let protein: String
+}

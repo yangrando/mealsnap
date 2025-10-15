@@ -5,3 +5,54 @@
   Created by Yan Felipe Grando on 27/09/25.
   
 */
+// MealEntryView
+"meal_entry_view_title" = "New Meal";
+"take_photo_button" = "Take Photo";
+"take_another_photo_button" = "Take Another Photo";
+"analyze_meal_button" = "Analyze Meal";
+"placeholder_image_title" = "Take a picture of your meal";
+"analysis_results_title" = "Identified Foods:";
+"nutrition_info_title" = "Nutrition Info (for %@)";
+"nutrition_calories" = "Calories:";
+"nutrition_carbs" = "Carbs:";
+"nutrition_fat" = "Fat:";
+"nutrition_protein" = "Protein:";
+"analysis_loading" = "Analyzing...";
+
+// ...
+// Error Messages
+"error_recognition_failed" = "Could not identify any food in the image. Please try a clearer photo.";
+"error_nutrition_not_found" = "Nutrition information could not be found for the identified food.";
+"error_generic" = "An unexpected error occurred. Please try again.";
+
+"save_meal_button" = "Save Meal";
+"meal_saved_feedback" = "Meal Saved!";
+"new_meal_button" = "Log Another Meal";
+
+// ...
+// Tab Bar
+"tab_new_meal" = "New Meal";
+"tab_history" = "History";
+
+// History View
+"history_view_title" = "Meal History";
+"history_empty_state_message" = "Your saved meals will appear here.";
+
+// ...
+// Tab Bar
+"tab_new_meal" = "Nova Refeição";
+"tab_history" = "Histórico";
+
+// History View
+"history_view_title" = "Histórico de Refeições";
+"history_empty_state_message" = "Suas refeições salvas aparecerão aqui.";
+
+"camera_cancel_button" = "Cancel";
+"camera_instruction" = "Position your meal in the frame and tap the capture button";
+"camera_error_title" = "Camera Not Available";
+"camera_permission_denied" = "Camera access is required to take photos of your meals. Please enable camera access in Settings.";
+"camera_error_unknown" = "An unknown camera error occurred. Please try again.";
+"camera_error_close_button" = "Close";
+
+"camera_not_available_title" = "Camera Not Available";
+"camera_not_available_message" = "The camera is not available on this device. Please try using the photo library or a different device.";

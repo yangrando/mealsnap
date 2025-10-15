@@ -14,7 +14,7 @@ struct MealSnapApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView(context: persistenceController.container.viewContext)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

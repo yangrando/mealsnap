@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct IngredientDetail: Decodable {
+    let id: Int
+    let name: String
+    let amount: Double
+    let unit: String
+    let nutrition: NutritionInfo
+}

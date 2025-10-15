@@ -5,3 +5,34 @@
   Created by Yan Felipe Grando on 27/09/25.
   
 */
+// MealEntryView
+"meal_entry_view_title" = "Nova Refeição";
+"take_photo_button" = "Tirar Foto";
+"take_another_photo_button" = "Tirar Outra Foto";
+"analyze_meal_button" = "Analisar Refeição";
+"placeholder_image_title" = "Tire uma foto da sua refeição";
+"analysis_results_title" = "Alimentos Identificados:";
+"nutrition_info_title" = "Informação Nutricional (para %@)";
+"nutrition_calories" = "Calorias:";
+"nutrition_carbs" = "Carboidratos:";
+"nutrition_fat" = "Gordura:";
+"nutrition_protein" = "Proteína:";
+"analysis_loading" = "Analisando...";
+// ...
+// Error Messages
+"error_recognition_failed" = "Não foi possível identificar nenhum alimento na imagem. Por favor, tente uma foto mais nítida.";
+"error_nutrition_not_found" = "Não foi possível encontrar a informação nutricional para o alimento identificado.";
+"error_generic" = "Ocorreu um erro inesperado. Por favor, tente novamente.";
+"save_meal_button" = "Salvar Refeição";
+"meal_saved_feedback" = "Refeição Salva!";
+"new_meal_button" = "Registrar Nova Refeição";
+
+"camera_cancel_button" = "Cancelar";
+"camera_instruction" = "Posicione sua refeição no quadro e toque no botão de captura";
+"camera_error_title" = "Câmera Não Disponível";
+"camera_permission_denied" = "O acesso à câmera é necessário para fotografar suas refeições. Por favor, habilite o acesso à câmera nas Configurações.";
+"camera_error_unknown" = "Ocorreu um erro desconhecido na câmera. Por favor, tente novamente.";
+"camera_error_close_button" = "Fechar";
+
+"camera_not_available_title" = "Câmera Não Disponível";
+"camera_not_available_message" = "A câmera não está disponível neste dispositivo. Por favor, tente usar a biblioteca de fotos ou um dispositivo diferente.";

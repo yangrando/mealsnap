@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import UIKit
+
+struct AnalyzedMeal {
+    
+    let image: UIImage
+    let identifiedFoods: [String]
+    let nutritionInfo: NutritionInfo?
+    
+}

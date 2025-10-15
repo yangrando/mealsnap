@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct MainTabView: View {
+    let context: NSManagedObjectContext
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            MealEntryView(context: context)
+                .tabItem {
+                    Label("tab_new_meal", systemImage: "plus.circle.fill")
+                }
+            
+            HistoryView()
+                .tabItem {
+                    Label("tab_history", systemImage: "list.bullet")
+                }
+        }
     }
 }
 
-#Preview {
-    MainTabView()
-}

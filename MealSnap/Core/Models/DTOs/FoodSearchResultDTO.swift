@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct FoodSearchResult: Codable {
+    let results: [FoodItem]
+}
