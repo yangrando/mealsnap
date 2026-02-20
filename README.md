@@ -31,13 +31,13 @@ MealSnap is a modern iOS application designed to simplify nutritional tracking t
 
 This project was developed not only as a functional application but also as a demonstration of best practices in iOS development. The primary goals were:
 
-1.To build a portfolio-worthy application that showcases a wide range of technical skills relevant to the current job market.
+1. To build a portfolio-worthy application that showcases a wide range of technical skills relevant to the current job market.
 
-2.To implement a clean, scalable, and maintainable architecture (MVVM with a Repository pattern).
+2. To implement a clean, scalable, and maintainable architecture (MVVM with a Repository pattern).
 
-3.To integrate machine learning and external APIs in a practical, real-world use case.
+3. To integrate machine learning and external APIs in a practical, real-world use case.
 
-4.To adhere to modern development standards, including asynchronous programming with async/await, robust error handling, and a reactive UI. '''
+4. To adhere to modern development standards, including asynchronous programming with async/await, robust error handling, and a reactive UI. '''
 
 '''
 
@@ -45,17 +45,13 @@ This project was developed not only as a functional application but also as a de
 
 This project is built upon a clean and scalable MVVM-R (Model-View-ViewModel-Repository) architecture. This pattern was chosen to ensure a clear separation of concerns, making the codebase easier to test, maintain, and scale.
 
-•
-View: The UI layer, built with SwiftUI. It is responsible for displaying data and capturing user input. It knows nothing about the business logic.
+• View: The UI layer, built with SwiftUI. It is responsible for displaying data and capturing user input. It knows nothing about the business logic.
 
-•
-ViewModel: Acts as the bridge between the View and the Model (via the Repository). It prepares data for the View and handles user interactions.
+• ViewModel: Acts as the bridge between the View and the Model (via the Repository). It prepares data for the View and handles user interactions.
 
-•
-Repository: A single source of truth for all data operations. It abstracts the data sources, deciding whether to fetch data from a remote API, a local database, or other services.
+• Repository: A single source of truth for all data operations. It abstracts the data sources, deciding whether to fetch data from a remote API, a local database, or other services.
 
-•
-Services: Specialized classes responsible for specific tasks, such as making network calls (NutritionAPIService), running the ML model (ImageRecognitionService), or handling database operations (PersistenceService).
+• Services: Specialized classes responsible for specific tasks, such as making network calls (NutritionAPIService), running the ML model (ImageRecognitionService), or handling database operations (PersistenceService).
 
 Architecture Diagram
 
