@@ -104,11 +104,27 @@ Example:
 
 Confirm that the key file is ignored in an active `.gitignore` in this repository.
 
-### 4) Run
+### 4) Run a secret check before push
+
+```bash
+./scripts/check-secrets.sh
+```
+
+If the script reports potential secrets, fix them before committing.
+
+### 5) Run
 
 1. Open `MealSnap.xcodeproj`.
 2. Select your target/simulator.
 3. Press `Run` in Xcode.
+
+## Security for public repositories
+
+- Keep real keys only in local files ignored by Git (`MealSnap/Utils/ApiKeys.plist`).
+- Commit only template/example files (like `MealSnap/Utils/ApiKeys.example.plist`).
+- Run `./scripts/check-secrets.sh` before each push.
+- If a key is leaked, rotate/revoke it immediately in the provider dashboard.
+- If a secret was already committed, remove it from history before publishing.
 
 ## Technical evaluation points (for recruiters)
 
