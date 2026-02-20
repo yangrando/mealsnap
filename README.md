@@ -143,4 +143,4 @@ If the script reports potential secrets, fix them before committing.
 
 ## License
 
-Define according to repository goals (e.g., MIT).
+This project is licensed under the MIT License. See `LICENSE`.
