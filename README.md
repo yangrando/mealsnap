@@ -135,23 +135,17 @@ cd MealSnap
 
 For security, the Spoonacular API key is not hardcoded. You need to create a plist file to store it.
 
-1.
-Get your API key: Sign up for a free plan at Spoonacular Food API.
+1. Get your API key: Sign up for a free plan at Spoonacular Food API.
 
-2.
-Create the ApiKeys.plist file: In Xcode, right-click on the MealSnap group, select "New File...", and choose "Property List". Name it ApiKeys.plist.
+2. Create the ApiKeys.plist file: In Xcode, right-click on the MealSnap group, select "New File...", and choose "Property List". Name it ApiKeys.plist.
 
-3.
-Add the key: Inside the new file, add a new row with the following properties:
+3. Add the key: Inside the new file, add a new row with the following properties:
 
-•
-Key: SpoonacularAPIKey
+• Key: SpoonacularAPIKey
 
-•
-Type: String
+• Type: String
 
-•
-Value: Your-API-Key-Goes-Here
+• Value: Your-API-Key-Goes-Here
 
 
 
